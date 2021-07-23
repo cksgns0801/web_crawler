@@ -97,8 +97,8 @@ class OutnetSpider(scrapy.Spider):
         REGION_NAME = 'ap-northeast-2'
         
         s3 = boto3.client('s3', 
-            aws_access_key_id='AKIAQSPTAYJEGOO7EG2I', 
-            aws_secret_access_key='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', 
+            aws_access_key_id='**', 
+            aws_secret_access_key='**', 
             region_name=REGION_NAME
         )
         
